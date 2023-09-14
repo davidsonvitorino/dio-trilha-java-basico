@@ -1,3 +1,4 @@
+package src;
 public class Aula2Operadores {
     public static void main(String[] args) {
         int numero = 5;
