@@ -1,4 +1,4 @@
-package Aprendendo_a_sintax;
+package src;
 
 /**
  * <h1>Calculadora</h1>
@@ -23,13 +23,4 @@ public class Calculadora {
         return numeroUm + numeroDois;
     }
 
-    public int somaMultiplica (int n, int x, String m){
-        int r =0; //r é igual ao resultado
-        if (m == "M"){
-            r = n * x;
-        }else{
-            r = n + x;
-        }
-        return r;
-    }
 }
