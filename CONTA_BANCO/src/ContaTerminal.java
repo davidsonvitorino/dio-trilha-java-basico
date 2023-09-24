@@ -11,6 +11,14 @@ public class ContaTerminal {
         if(codigo == 104){
             banco = "Caixa Economica Federal";
         }
+        else if(codigo == 105){
+            banco = "Bradesco";
+        }
+        else if(codigo == 106){
+            banco = "Itaú";
+        }else {
+            banco = "Codigo invalido";
+        }
         System.out.println("Banco: " + banco);
 
         System.out.print("Digite a sua agência: ");
