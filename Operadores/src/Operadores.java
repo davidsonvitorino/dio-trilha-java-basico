@@ -2,7 +2,7 @@ package src;
 public class Operadores {
     public static void main(String[] args) {
         //Concatenação
-        String nomeCompleto = "Linguadem " + "Java";
+        String nomeCompleto = "Linguagem " + "Java";
         System.out.println(nomeCompleto);
 
         String concatenacao = "?";
